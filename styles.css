@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:black;
+    font-family: "Poppins", sans-serif;
+}
+
+.card{
+    width: 33rem;
+    background-color: white;
+    padding: 2rem;
+    margin: 6.5rem auto auto;
+    border-radius: 10px;
+}
+
+.heading{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.search-area{
+    margin-top: 1rem;
+    
+    position: relative;
+}
+
+.search-bar{
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.9rem;
+    padding: 1.1rem 1.5rem;
+    border-radius: 40px;
+    background-color: rgb(234, 234, 234);
+    outline: 0;
+    border: 0;
+}
+
+.add-btn{
+    position: absolute;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.1rem;
+    color: white;
+    right: 0px;
+    height: 100%;
+    width: 28%;
+    border-radius: 40px;
+    outline: 0;
+    border: 0;
+    background-color: orangered;
+}
